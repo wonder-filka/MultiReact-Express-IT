@@ -1,0 +1,161 @@
+@media (max-width: 320px) {
+  h1 {
+    font-size: 2em !important;
+  }
+  .title-block {
+    text-align: center;
+    justify-content: center;
+    .line-title {
+      display: none;
+    }
+    .services-par {
+      margin-left: 6vw !important;
+    }
+  }
+}
+
+@media (min-width: 320px) and (max-width: 420px) {
+  h1 {
+    font-size: 2em !important;
+  }
+  .title-block {
+    text-align: center;
+    justify-content: center;
+    .line-title {
+      display: none;
+    }
+    .services-par {
+      margin-left: 6vw !important;
+    }
+  }
+}
+
+@media (min-width: 420px) and (max-width: 768px) {
+  h1 {
+    font-size: 3em !important;
+  }
+  .title-block {
+    text-align: center;
+    justify-content: center;
+    .line-title {
+      display: none;
+    }
+    .services-par {
+      margin-left: 6vw !important;
+    }
+  }
+}
+h5 {
+}
+
+@media (max-width: 1280px) {
+  h1 {
+    font-size: 3em !important;
+  }
+  .review-item,
+  .case-hover-info {
+    p {
+      font-size: 14px !important;
+    }
+  }
+}
+
+body {
+  margin: 0;
+  font-family: "Lexend Deca", sans-serif;
+  width: 100vw;
+  overflow-x: hidden;
+  p {
+    font-weight: 300;
+    font-size: 1.125em;
+    line-height: 27px;
+    color: #606060;
+    text-indent: 40px;
+    text-align: justify;
+  }
+  h1 {
+    font-weight: 800;
+    font-size: 6.5em;
+    letter-spacing: -0.02em;
+    margin: 0;
+  }
+
+  h3 {
+    font-weight: 600;
+    font-size: 1.25em;
+    line-height: 44px;
+    letter-spacing: -0.02em;
+    max-width: 659px;
+    margin-top: 11px;
+  }
+
+  h4 {
+    padding-left: 25px;
+    font-weight: 800;
+    font-size: 2.875em;
+
+    text-transform: uppercase;
+  }
+
+  h5 {
+    font-weight: 800;
+    font-size: 1.5em;
+
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    margin: 0;
+    margin: 1vh auto 2vh auto;
+  }
+
+  .contact-btn {
+    margin-top: 30px;
+    padding: 20px 40px;
+    gap: 10px;
+    background: #466fdf;
+    border-radius: 4px;
+    font-weight: 300;
+    font-size: 14px;
+    color: #ffffff;
+    letter-spacing: -0.02em;
+    border: none;
+    text-transform: uppercase;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  .title-block {
+    display: flex;
+    align-items: center;
+    margin: 0vh 0 0vh 0;
+    padding: 5vh 0 5vh 0;
+    .line-title {
+      width: 100px;
+      height: 3px;
+      margin-right: 1vw;
+    }
+    h4 {
+      margin: 0;
+      padding-left: 0;
+    }
+  }
+
+  .title {
+    width: 70vw;
+    height: auto;
+    margin: 0 auto;
+    // padding: 50px 0 50px 0;
+    h4 {
+      margin: 0;
+    }
+
+    .title-p {
+      max-width: 880px;
+      padding: 0 0 50px 0;
+      font-weight: 300;
+      font-size: 1.125em;
+      margin: 0 0 0 6vw;
+    }
+  }
+}

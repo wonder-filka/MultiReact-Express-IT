@@ -1,0 +1,117 @@
+@media (max-width: 1024px) {
+  .Header {
+    display: block !important;
+    .menu,
+    .header-language {
+      display: none;
+    }
+    .mobile-header {
+      display: flex !important;
+    }
+  }
+  .header-wrap {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .menu-wrap {
+    display: block;
+    nav {
+      ul {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        padding: 0;
+        li {
+          margin: 2vh 0;
+          font-size: 24px;
+          padding: 0;
+        }
+      }
+    }
+    .header-lang-mob {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      .lang-btn {
+        margin: 2vh 0;
+        font-weight: 300;
+        font-size: 24px;
+        color: #ffffff;
+        background: transparent;
+        border: none;
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+.Header {
+  width: auto;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(
+      98.09deg,
+      rgba(95, 124, 235, 0.84) 2.65%,
+      rgba(0, 0, 0, 0.84) 96.75%
+    ),
+    #000000;
+  padding: 10px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+  .mobile-header {
+    display: none;
+    .menu-button {
+      height: auto;
+      width: 50px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      .line-btn {
+        height: 3px;
+        width: 100%;
+        background: white;
+      }
+      .line-btn:nth-child(2) {
+        margin: 1vh 0;
+      }
+    }
+  }
+
+  .active {
+    color: #b3c7ff;
+  }
+  ul {
+    list-style: none;
+
+    li {
+      display: inline-block;
+      padding-right: 30px;
+      font-weight: 300;
+      font-size: 16px;
+
+      a {
+        text-decoration: none;
+        color: #ffffff;
+      }
+    }
+  }
+
+  .header-language {
+    button {
+      font-weight: 300;
+      font-size: 16px;
+      color: #ffffff;
+      background: transparent;
+      border: none;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}

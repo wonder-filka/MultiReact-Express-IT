@@ -1,0 +1,21 @@
+version: '3.4'
+
+services:
+  quadro-tech-front-dev:
+    image: 
+    container_name: 
+    hostname:
+    restart: 
+    networks:
+      video_net:
+    healthcheck:
+     test: 
+     interval: 
+     timeout: 
+     retries: 
+    ports:
+   
+
+networks:
+  video_net:
+    driver: 

@@ -1,0 +1,118 @@
+@media (max-width: 570px) {
+  .reviews-block {
+    grid-template-columns: repeat(1, 90vw) !important;
+    grid-template-rows: repeat(6, auto) !important;
+  }
+}
+
+@media (min-width: 570px) and (max-width: 768px) {
+  .reviews-block {
+    grid-template-columns: repeat(2, 40vw) !important;
+    .review-item {
+      padding: 0 1vw !important;
+      div {
+        font-size: 12px;
+      }
+      p {
+        font-size: 1 !important;
+        margin: 0 !important;
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1280px) {
+  .reviews-block {
+    grid-template-columns: repeat(3, 240px) !important;
+    grid-template-rows: repeat(2, 200px) !important;
+    .review-item {
+      padding: 0 1vw !important;
+      div {
+        font-size: 12px;
+      }
+      p {
+        font-size: 1 !important;
+        margin: 0 !important;
+      }
+    }
+  }
+}
+.Reviews {
+  background: url(./assets/reviews.svg);
+  background-size: contain;
+
+  .title-wrap {
+    .title {
+      height: auto;
+      .title-p {
+        padding: 0;
+      }
+    }
+
+    .line-title {
+      background-color: black;
+    }
+  }
+  .reviews-block {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 380px);
+    grid-template-rows: repeat(2, 300px);
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+    margin: 9vh 0;
+    .review-item {
+      padding: 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      div {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+      }
+    }
+    .white {
+      background: #fff;
+      border: 1px solid #d2d2d2;
+      box-shadow: -4px 0px 0px #466fdf;
+      p {
+        margin-left: 0 !important;
+      }
+    }
+
+    .blue {
+      background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+        linear-gradient(
+          98.09deg,
+          rgba(95, 124, 235, 0.84) 2.65%,
+          rgba(31, 54, 142, 0.84) 96.75%
+        ),
+        #000000;
+      border: 1px solid #364684;
+      color: #fff;
+      p {
+        color: #fff;
+        margin-left: 0 !important;
+      }
+    }
+  }
+
+  .discuss-block {
+    height: 380px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-image: url(./assets/discus2.png);
+    background-size: cover;
+    h4 {
+      margin: 0;
+      max-width: 700px;
+      text-align: center;
+    }
+  }
+}

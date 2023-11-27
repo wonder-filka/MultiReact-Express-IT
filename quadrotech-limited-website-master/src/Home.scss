@@ -1,0 +1,174 @@
+@media (max-width: 320px) {
+}
+
+@media (max-width: 420px) {
+  .about-block-wrap,
+  .our-team-wrap {
+    background-size: auto !important;
+  }
+  .about-block {
+    .about-p {
+      flex-direction: column;
+      p {
+        margin: 18px 0px !important;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .first-block,
+  .about-block,
+  .servises-we-offer,
+  .our-team {
+    width: auto !important;
+    padding: 0 2vw !important;
+  }
+  .first-block-wrap {
+    background-image: url("./assets/homemain_mob.png") !important;
+    background-size: contain !important;
+    .first-block {
+      text-align: center !important;
+      margin: 0 !important;
+      justify-content: center;
+      align-items: center !important;
+      width: auto !important;
+      padding: 2vh 2vw;
+    }
+  }
+
+  .about-block {
+    .about-p {
+      flex-direction: column;
+      p {
+        margin: 18px 0px !important;
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .our-team {
+    width: 100%;
+    margin: 0vh auto 5vh auto !important;
+    .team-info {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      .title-block {
+        align-self: start;
+      }
+      p {
+        margin: 0vh auto 5vh auto;
+      }
+    }
+    .team-img img {
+      width: 100% !important;
+
+      padding-left: 0vw !important;
+    }
+  }
+}
+
+@media (max-width: 1280px) {
+}
+
+.first-block-wrap {
+  background-image: url("./assets/homemain.jpg");
+  background-size: cover;
+  background-position: -20%;
+
+  .first-block {
+    width: 70vw;
+    height: 70vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+}
+
+.about-block-wrap {
+  width: 100%;
+  margin-bottom: 2.6em;
+  background-size: contain;
+  background-position: 30%;
+  .about-block {
+    width: 70vw;
+    margin: auto;
+
+    .title-block {
+      .line-title {
+        background-color: black;
+      }
+    }
+    .about-p {
+      display: flex;
+      justify-content: space-between;
+      p {
+        flex: 1;
+        padding: 0 2vw;
+        margin: -2vh 0 2vh 0;
+        text-align: justify;
+      }
+    }
+  }
+}
+
+.servises-we-offer-wrap {
+  background-image: url(./assets/servisesback.png);
+  background-size: cover;
+  height: auto;
+  padding-bottom: 5vh;
+  .servises-we-offer {
+    width: 70vw;
+    margin: 0 auto;
+    .line-title {
+      background-color: #ffffff;
+    }
+
+    h4 {
+      color: #ffffff;
+    }
+  }
+}
+.our-team-wrap {
+  background-size: contain;
+  background-position: 40%;
+  .our-team {
+    width: 70vw;
+    margin: 0 auto;
+    display: block;
+    margin: 0 auto 5vh auto;
+    .title-block {
+      display: flex;
+      align-items: center;
+
+      .line-title {
+        background-color: black;
+        margin-right: 1vw;
+      }
+      h4 {
+        margin: 0;
+      }
+    }
+    p {
+      max-width: 500px;
+    }
+
+    .team-info {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      .team-img {
+        img {
+          max-width: 417px;
+          padding-left: 2vw;
+        }
+      }
+    }
+  }
+}

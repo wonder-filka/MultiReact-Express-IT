@@ -1,0 +1,192 @@
+@media (max-width: 768px) {
+  .Industries {
+    // .industries-back {
+    //   display: none !important;
+    //   video {
+    //     opacity: 0 !important;
+    //     visibility: hidden !important;
+    //     position: absolute !important;
+    //     display: none !important;
+    //   }
+    //   .mute {
+    //     display: none !important;
+    //   }
+    // }
+    .Industries-wrap {
+      background: linear-gradient(
+          0deg,
+          rgba(0, 0, 0, 0.63),
+          rgba(0, 0, 0, 0.63)
+        ),
+        url(./assets/Cases1.png) !important;
+      .Industries-we-offer {
+        width: auto !important;
+        padding: 2vh 2vw !important;
+        height: auto !important;
+        .Industries-par {
+          margin: 0 !important;
+        }
+      }
+    }
+    .industies-block {
+      grid-template-columns: 50vw 50vw !important;
+      text-align: center;
+      .industies-item {
+        padding: 20px 0 !important;
+        .industies-title {
+          flex-direction: column;
+          h5 {
+            font-size: 1em !important;
+          }
+        }
+        ul {
+          li {
+            font-size: 14px !important;
+          }
+        }
+      }
+      .industies-item:active {
+        ul {
+          visibility: visible;
+          opacity: 1;
+          height: auto;
+          margin: auto;
+        }
+      }
+      .industies-item:hover {
+        ul {
+          padding: 25px !important;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1280px) {
+  .industies-block {
+    grid-template-columns: 380px 380px !important;
+    text-align: center;
+    .industies-item {
+      padding: 30px !important;
+      img {
+        width: 100px !important;
+      }
+
+      h5 {
+        font-size: 1em;
+      }
+    }
+  }
+}
+
+.Industries {
+  background: url(./assets/background.png);
+  background-size: auto;
+  .industries-back {
+    position: absolute;
+    width: 100%;
+    .mute {
+      position: absolute;
+      height: 430px;
+      width: 100%;
+      background-color: #000000;
+      background: linear-gradient(
+          180deg,
+          rgba(255, 255, 255, 0) 50%,
+          #ffffff 88.84%,
+          #ffffff 93.87%
+        ),
+        rgba(0, 0, 0, 0.63);
+      z-index: 2;
+    }
+    video {
+      position: relative;
+      height: 430px;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+  .Industries-wrap {
+    position: relative;
+    z-index: 5;
+
+    .Industries-we-offer {
+      width: 70vw;
+      height: auto;
+      margin: 0 auto;
+
+      .line-title {
+        background-color: white;
+      }
+      h4 {
+        margin: 0;
+        color: white;
+      }
+      .Industries-par {
+        margin: 0 0 0 6vw;
+        max-width: 880px;
+        padding: 0 0 50px 0;
+        color: white;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 27px;
+      }
+    }
+  }
+
+  .industies-block {
+    position: relative;
+    display: grid;
+    grid-template-columns: 480px 480px;
+    text-align: center;
+    justify-content: center;
+    margin: 0 0 80px 0;
+    z-index: 9;
+    .industies-item {
+      padding: 50px;
+      .industies-title {
+        display: flex;
+        align-items: center;
+      }
+
+      ul {
+        visibility: hidden;
+        opacity: 0;
+        height: 0;
+        margin: 0;
+        transition: opacity 0.3s ease-in-out;
+
+        text-align: left;
+        li {
+          font-weight: 300;
+          font-size: 18px;
+          line-height: 30px;
+        }
+      }
+    }
+    .industies-item:hover {
+      ul {
+        visibility: visible;
+        opacity: 1;
+        height: auto;
+        margin: auto;
+        padding: 3vh 3vw;
+      }
+    }
+    .white {
+      background: #ffffff;
+      border: 1px solid #d2d2d2;
+    }
+    .blue {
+      background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+        linear-gradient(
+          98.09deg,
+          rgba(95, 124, 235, 0.84) 2.65%,
+          rgba(31, 54, 142, 0.84) 96.75%
+        ),
+        #000000;
+      border: 1px solid #364684;
+      color: white;
+    }
+  }
+}
